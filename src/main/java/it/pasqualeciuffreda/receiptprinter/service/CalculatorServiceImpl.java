@@ -7,6 +7,13 @@ import java.util.List;
 import it.pasqualeciuffreda.receiptprinter.model.Item;
 import it.pasqualeciuffreda.receiptprinter.model.Receipt;
 
+/***
+ * 
+ * @author pasqualeciuffreda
+ *
+ * Service implementing the taxes calculation logic
+ *  
+ */
 public class CalculatorServiceImpl implements CalculatorService {
 	
 	private static final BigDecimal SALES_TAX_STANDARD = new BigDecimal(0.1).setScale(2, RoundingMode.HALF_UP);

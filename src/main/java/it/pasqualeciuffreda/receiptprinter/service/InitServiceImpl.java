@@ -6,6 +6,12 @@ import java.util.List;
 import it.pasqualeciuffreda.receiptprinter.model.Item;
 import it.pasqualeciuffreda.receiptprinter.parser.InputParser;
 
+/***
+ * 
+ * @author pasqualeciuffreda
+ * 
+ * Service implementing the initialization of the data source
+ */
 public class InitServiceImpl implements InitService {
 	
 	InputParser parser;

@@ -4,12 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>it.pasqualeciuffreda</groupId>
-	<artifactId>receiptprinter</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<artifactId>sales-taxes</artifactId>
+	<version>1.0.0</version>
 	<packaging>jar</packaging>
 
-	<name>receiptprinter</name>
-	<url>http://maven.apache.org</url>
+	<name>sales-taxes</name>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

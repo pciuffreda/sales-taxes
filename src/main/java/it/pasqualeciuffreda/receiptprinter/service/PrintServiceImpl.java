@@ -5,6 +5,12 @@ import java.math.BigDecimal;
 import it.pasqualeciuffreda.receiptprinter.model.Item;
 import it.pasqualeciuffreda.receiptprinter.model.Receipt;
 
+/***
+ * 
+ * @author pasqualeciuffreda
+ * 
+ * Service defining the printing logic of the taxes calculation results
+ */
 public class PrintServiceImpl implements PrintService {
 	
 	private String itemFormat = "%1$-40s %2$6.2f %n";

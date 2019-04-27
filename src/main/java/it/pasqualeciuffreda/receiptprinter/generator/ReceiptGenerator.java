@@ -8,6 +8,14 @@ import it.pasqualeciuffreda.receiptprinter.service.CalculatorService;
 import it.pasqualeciuffreda.receiptprinter.service.InitService;
 import it.pasqualeciuffreda.receiptprinter.service.PrintService;
 
+/***
+ * 
+ * @author pasqualeciuffreda
+ *
+ * Class with setter injection dependency
+ * 
+ */
+
 public class ReceiptGenerator {
 	
 	private CalculatorService calculatorService;

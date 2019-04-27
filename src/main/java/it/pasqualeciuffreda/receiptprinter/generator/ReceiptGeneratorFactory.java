@@ -8,7 +8,10 @@ import it.pasqualeciuffreda.receiptprinter.service.PrintServiceImpl;
  * 
  * @author pasqualeciuffreda
  * 
- * factory class instanciating Receipt objects and resolve dependencies
+ * factory class instanciating ReceiptGenerator objects and resolving dependencies
+ * 
+ * This class decouple the client from the implementation details so that we can change
+ * the implementation details with no change for the invoking client.
  *
  */
 public class ReceiptGeneratorFactory {
@@ -18,12 +21,11 @@ public class ReceiptGeneratorFactory {
 		
 		receiptGenerator.setInitService(new InitServiceImpl());
 		
-		//Dependencies resolutions
+		//Dependencies resolutions through setter injection
 		receiptGenerator.setCalculatorService(new CalculatorServiceImpl());
 		
 		receiptGenerator.setPrintService(new PrintServiceImpl());
 		
 		return receiptGenerator;
 	}
-
 }
