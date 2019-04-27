@@ -41,6 +41,6 @@ $ mvn clean package
 ```
 and the console output will print the result.
 
-##Travis CI
+## Travis CI
 
 This is the [link](https://travis-ci.com/pciuffreda/sales-taxes) to the build service connected to the repo.
